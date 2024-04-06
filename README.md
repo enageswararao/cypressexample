@@ -1,12 +1,12 @@
   
-/*      1.Boolean:
+/*1.Boolean:
         Represents a boolean value (true or false).
         Example: let isDone: boolean = false;
 */
     let isDone : boolean =true;
     console.log(isDone)
 
-  /*    2.Number:
+  /*2.Number:
         Represents numeric values, including integers and floating-point numbers.
         Example: let count: number = 42;
 */
@@ -14,14 +14,14 @@
     console.log(num)
 
 
- /*    3.String:
+ /*3.String:
         Represents textual data enclosed within single (') or double (") quotes.
         Example: let message: string = "Hello";
  */   
     let message : string = "hello nageswar";
     console.log(message)
  
-  /*  4. Array:
+  /*4. Array:
         Represents a collection of elements of the same type.
         Example: let numbers: number[] = [1, 2, 3];
   */
@@ -44,7 +44,7 @@
         console.log("for loop iteratiing ...."+value)
     }
 
-  /*   5. Tuple:
+  /*5. Tuple:
         Represents an array-like structure where each element can have its own type.
         Example: let tuple: [string, number] = ["hello", 10];
   */
@@ -69,7 +69,7 @@
     // Access rest of the elements
     console.log(numbers.slice(2)); // Output: [3, 4, 5]
 
-    /* 6.Enum:
+    /*6.Enum:
         Represents a set of named constants.
     */
         enum Direction {
